@@ -59,14 +59,13 @@ header {
   
   
   .carousel-item img {
-    height: 300px; 
+    height: 700px; 
     object-fit: cover;
     width: 1200px;
   }
   body {
       display: flex;
       align-items: center;
-      justify-content: center;
       flex-direction: column;
 
   }
@@ -74,7 +73,7 @@ header {
   .w-1 {
       width: 60px;
   }
-
-
-
+  .carousel{
+    height:700px;
+  }
  

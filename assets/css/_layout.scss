@@ -1,0 +1,80 @@
+body {
+    min-height: 100vh;
+    font-family: sans-serif, 'Courier New', Courier, monospace;
+    background-color: rgb(74, 106, 212);
+    padding-top: 100px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; 
+}
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .textpricipal {
+    color: rgb(218, 158, 48);
+  }
+  
+  .corpprimary {
+    display: flex;
+    background-color: rgb(34, 84, 247);
+    align-items: center;
+    justify-content: center;
+    height: 5.75rem;
+    width: 100%;
+    padding: 1%;
+    border: 3px solid rgb(235, 165, 15);
+  }
+  
+  .img1 {
+    padding-right: 1%;
+    align-items: flex-start;
+    width: 88px;
+    justify-content: right;
+  }
+  
+  h1, h2, h3, p {
+    color: rgb(235, 165, 15);
+  }
+  
+  #conteudoone {
+    display: box;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(3, 51, 209);
+    border: 5px solid rgb(235, 165, 15);
+    width: 75%;
+    height: 750px;
+    margin: 0;
+    padding: 10px;
+    border-radius: 2%;
+  }
+  
+  
+  .carousel-item img {
+    height: 300px; 
+    object-fit: cover;
+    width: 1200px;
+  }
+  body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+  }
+
+  .w-1 {
+      width: 60px;
+  }
+
+
+
+ 

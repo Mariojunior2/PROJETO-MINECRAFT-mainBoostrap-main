@@ -5,6 +5,10 @@
      object-fit: cover;
 }
 
+.mt-10 {
+  margin-top: -470px !important;
+}
+
 /* Created by Tivotal */
 /* Google Fonts(Poppins) */
 /*

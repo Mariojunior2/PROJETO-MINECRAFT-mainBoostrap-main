@@ -115,6 +115,14 @@ p, h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+.ptxt {
+  width: 100%;
+}
+
+.htxt {
+  width: 100%;
+}
+
 /* Created by Tivotal */
 /* Google Fonts(Poppins) */
 /*
@@ -353,6 +361,10 @@ body {
   padding-top: 100px;
 }
 
+img {
+  background-image: cover;
+}
+
 header {
   position: absolute;
   top: 0;
@@ -425,4 +437,16 @@ body {
 
 .carousel {
   height: 400px;
+}
+@media (max-width: 425px) {
+  .carousel {
+    width: 400px;
+  }
+}
+
+@media (max-width: 425px) {
+  .carousel-inner {
+    width: -moz-max-content;
+    width: max-content;
+  }
 }/*# sourceMappingURL=styles.css.map */

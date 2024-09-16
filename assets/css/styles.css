@@ -435,6 +435,45 @@ body {
   width: 60px;
 }
 
+.alinhamento {
+  display: flex;
+}
+
+.creditos {
+  width: 450px;
+  margin: 20px;
+  border: 5px solid rgb(235, 165, 15) !important;
+  background-color: rgb(3, 51, 209) !important;
+  border-radius: 16px !important;
+  flex: 1;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.grid .col-1 {
+  grid-column: span 6;
+}
+@media (max-width: 955px) {
+  .grid .col-1 {
+    grid-column: span 12;
+  }
+}
+
+.titulo {
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+}
+.list .names {
+  font-size: x-large;
+  font-family: "Comic Sans MS";
+  color: rgb(235, 165, 15) !important;
+}
+
 .carousel {
   height: 400px;
 }

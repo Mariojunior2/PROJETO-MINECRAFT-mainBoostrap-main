@@ -1,6 +1,6 @@
 body {
     min-height: 100vh;
-    font-family: sans-serif, 'Courier New', Courier, monospace;
+    font-family: Arial;
     background-color: rgb(74, 106, 212);
     padding-top: 100px;
 }
@@ -10,7 +10,7 @@ img{
 }
 
 header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -79,6 +79,7 @@ header {
   }
 .alinhamento{
   display:flex;
+  height: 100%;
 }
   .creditos {
     width: 450px;
@@ -114,6 +115,12 @@ header {
             grid-column: span 12;
         }
     }
+    .col-2{
+        grid-column: span 6;
+        @media(max-width:955px){
+            grid-column: span 12;
+        }
+    }
   }
   .titulo{
     text-align: center;
@@ -122,7 +129,6 @@ header {
   list-style: none;
   .names{
     font-size: x-large;
-    font-family: "Comic Sans MS";
     color: rgb(235, 165, 15) !important;
 
   }
@@ -144,3 +150,68 @@ header {
     }
   }
   
+
+
+  .oloko{
+    top: 72px;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    margin-left: 200%;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    justify-content: end;
+    transition-duration: 0.5s;
+    border-radius: 0px 0px 0px 20px;
+  
+  }
+
+
+
+
+
+
+
+.mlat{
+    border-radius: 10px 0px 0px 10px;
+    transition: ease-in-out;
+    transition-duration: 0.7s;
+    position: fixed;
+    background-color: black;
+    height: 100vh;
+    width: 40%;
+    margin-left: 200%;
+    z-index: 4;
+    top: 89px;
+    border: 2px solid rgb(235, 165, 15);
+}
+
+.aparecer{
+    position: fixed;
+    margin-left: 60%;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.button{
+  color:rgb(3, 51, 209);
+  background-color: rgb(235, 165, 15);
+  border-radius:10px;
+  border:none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.buti{
+  height: px;
+  color: black;
+}

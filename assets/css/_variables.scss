@@ -62,14 +62,16 @@
 
 .txt{
   display:flex;
-  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  -moz-column-gap: 0.25rem !important;
+  column-gap: 0.25rem !important;
+  padding: 14px;
+  
 }
 
-.ptxt{
-  width: 100%;
-}
 
-.htxt{
-  width: 100%;
-}
+
+
+
 

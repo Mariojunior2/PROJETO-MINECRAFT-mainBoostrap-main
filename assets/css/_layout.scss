@@ -1,7 +1,7 @@
 body {
     min-height: 100vh;
     font-family: Arial;
-    background-color: rgb(74, 106, 212);
+    background-color: $cor-3;
     padding-top: 100px;
 }
 img{
@@ -23,18 +23,21 @@ header {
   }
   
   .textpricipal {
-    color: rgb(218, 158, 48);
+    color: $cor-5;
+    @media (max-width:500px){
+      font-size: 24px;
+    }
   }
   
   .corpprimary {
     display: flex;
-    background-color: rgb(34, 84, 247);
+    background-color: $cor-2;
     align-items: center;
     justify-content: center;
     height: 5.75rem;
     width: 100%;
     padding: 1%;
-    border: 3px solid rgb(235, 165, 15);
+    border: 3px solid $cor-1;
   }
   
   .img1 {
@@ -45,15 +48,15 @@ header {
   }
   
   h1, h2, h3, p {
-    color: rgb(235, 165, 15);
+    color: $cor-5;
   }
   
   #conteudoone {
     display: box;
     align-items: center;
     justify-content: center;
-    background-color: rgb(3, 51, 209);
-    border: 5px solid rgb(235, 165, 15);
+    background-color: $cor-2;
+    border: 5px solid $cor-4;
     width: 75%;
     height: 750px;
     margin: 0;
@@ -65,7 +68,7 @@ header {
   .carousel-item img {
     height: 400px; 
     object-fit: cover;
-    width: 1200px;
+    width: 500px;
   }
   body {
       display: flex;
@@ -77,35 +80,39 @@ header {
   .w-1 {
       width: 60px;
   }
+  
 .alinhamento{
-  display:flex;
-  height: 100%;
+     display: flex;      
 }
   .creditos {
     width: 450px;
     margin: 20px;
-    border: 5px solid rgb(235, 165, 15) !important;
-    background-color: rgb(3, 51, 209) !important;
+    border: 5px solid $cor-5 !important;
+    background-color: $cor-1 !important;
     border-radius: 16px !important;
     flex: 1;
+    max-height: fit-content;
+    height: fit-content;
     @media(max-width:955px){
-      width: 450px;
+      width: 100%;
 
     }
   }
   .creditos1 {
     width: 450px;
     margin: 20px;
-    border: 5px solid rgb(235, 165, 15) !important;
-    background-color: rgb(3, 51, 209) !important;
+    border: 5px solid $cor-5 !important;
+    background-color: $cor-1 !important;
     border-radius: 16px !important;
     flex: 1;
+    max-height: fit-content;
+    height: fit-content;
     @media(max-width:955px){
-      width: 450px;
+      width: 100%;
 
     }
   }
-  .grid{
+  /*.grid{
     display: grid;
     grid-template-columns: repeat(12,1fr);
 
@@ -122,21 +129,24 @@ header {
         }
     }
   }
+*/
   .titulo{
     text-align: center;
+    @media(max-width:500px){
+      font-size: larger;
+    }
   }
 .list{
   list-style: none;
   .names{
     font-size: x-large;
-    color: rgb(235, 165, 15) !important;
+    color: $cor-5 !important;
 
   }
 }
 
   .carousel{
     height:400px;
-
     @media (max-width: 425px) {
       width: 400px;
     }
@@ -146,26 +156,10 @@ header {
 
   .carousel-inner{
     @media (max-width:425px){
-      width:max-content;
+      
     }
   }
   
-
-
-  .oloko{
-    top: 72px;
-    position: fixed;
-    display: flex;
-    width: 100%;
-    margin-left: 200%;
-    background-color: black;
-    color: white;
-    height: 100vh;
-    justify-content: end;
-    transition-duration: 0.5s;
-    border-radius: 0px 0px 0px 20px;
-  
-  }
 
 
 
@@ -178,9 +172,9 @@ header {
     transition: ease-in-out;
     transition-duration: 0.7s;
     position: fixed;
-    background-color: black;
+    background-color: $cor-1;
     height: 100vh;
-    width: 40%;
+    width: 20%;
     margin-left: 200%;
     z-index: 4;
     top: 89px;
@@ -189,7 +183,7 @@ header {
 
 .aparecer{
     position: fixed;
-    margin-left: 60%;
+    margin-left: 80%;
 }
 
 
@@ -202,9 +196,9 @@ header {
 }
 
 .button{
-  color:rgb(3, 51, 209);
-  background-color: rgb(235, 165, 15);
-  border-radius:10px;
+  color: $cor-1;
+  background-color: $cor-3;
+  width: 100%;
   border:none;
   display: flex;
   justify-content: center;
@@ -212,6 +206,14 @@ header {
 }
 
 .buti{
-  height: px;
+  display: flex;
   color: black;
+  cursor: pointer;
+  
+}
+
+.mov{
+  display: flex;
+  justify-content: end;
+  width: 1800px;
 }

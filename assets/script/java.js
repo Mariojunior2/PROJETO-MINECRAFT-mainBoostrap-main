@@ -4,18 +4,23 @@ function aparecer(){
 }
 
 
-const readMoreButtons = document.querySelectorAll(".button");
+const readMoreButtons = document.querySelectorAll('.button');
 
 readMoreButtons.forEach((button) => {
-  button.addEventListener("click", (e) => {
-    const articleSection = e.target.parentNode;
-    const textContent = articleSection.querySelector(".list");
-    textContent.classList.toggle("hidden");
-    textContent.classList.toggle("visible");
-    
-    e.target.textContent = textContent.classList.contains("hidden")
-      ? "Saiba Mais"
-      : "Fechar";
+  button.addEventListener('click', function() {
+    const listId = this.getAttribute('data-target');
+    const textContent = document.getElementById(listId);
+
+    textContent.classList.toggle('hidden');
+    textContent.classList.toggle('visible');
+
+    this.textContent = textContent.classList.contains('hidden')
+      ? 'Abrir'
+      : 'Fechar';
   });
 });
+
+
+
+
 

@@ -57,7 +57,7 @@ header {
     justify-content: center;
     background-color: $cor-2;
     border: 5px solid $cor-4;
-    width: 75%;
+    width: 50%;
     height: 750px;
     margin: 0;
     padding: 10px;
@@ -66,10 +66,12 @@ header {
   
   
   .carousel-item img {
-    height: 400px; 
+    width: 100%; 
+    height: 500px; 
     object-fit: cover;
-    width: 500px;
-  }
+    
+}
+
   body {
       display: flex;
       align-items: center;
@@ -171,29 +173,32 @@ header {
 
 
 
-.mlat{
+  .mlat{
     border-radius: 10px 0px 0px 10px;
     transition: ease-in-out;
     transition-duration: 0.7s;
     position: fixed;
-    background-color: rgb(182, 182, 182);
+    background-color: rgb(255, 255, 255);
     height: 100vh;
-    width: 20%;
+    width: 30%;
     margin-left: 200%;
     z-index: 4;
     top: 90px;
 
-    @media(max-width:500px){
-      width: 300px;
-    }
     @media(max-width:900px){
-      width: 370px;
+        width: 50%;
     }
 }
 
 .aparecer{
-    position: fixed;
-    margin-left: 80%;
+  position: fixed;
+  margin-left: 70%;
+
+  @media(max-width: 900px){
+      margin-left: 50%;
+  }
+
+
 }
 
 

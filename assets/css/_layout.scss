@@ -8,6 +8,16 @@ body {
 img {
   background-image: contain;
   background-repeat: no-repeat;
+
+  @media (max-width:500px) {
+    width: max-content;
+  }
+  @media (max-width:1000px) {
+    width: max-content;
+  }
+  @media (max-width:300px) {
+    width: max-content;
+  }
 }
 
 header {
@@ -120,6 +130,9 @@ body {
     width: 100%;
 
   }
+  @media (max-width:500px) {
+    font-size: 80% !important;
+   }
 }
 
 .creditos1 {
@@ -135,6 +148,9 @@ body {
     width: 100%;
 
   }
+  @media (max-width:500px) {
+    font-size: 80% !important;
+   }
 }
 
 /*.grid{

@@ -384,8 +384,10 @@ header {
 }
 @media (max-width: 500px) {
   .textpricipal {
-    font-size: 24px;
-    width: 40%;
+    display: block;
+    text-align: center;
+    font-size: 150%;
+    width: 75%;
   }
 }
 
@@ -406,7 +408,10 @@ header {
   justify-content: right;
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   color: #FFFFFF;
 }
 
@@ -617,9 +622,19 @@ body {
   }
 }
 
-.video {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+iframe {
+  width: 100%;
   padding: 40px;
+  height: 550px;
+}
+@media (max-width: 1000px) {
+  iframe {
+    height: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hide-mobile {
+    display: none !important;
+  }
 }/*# sourceMappingURL=styles.css.map */

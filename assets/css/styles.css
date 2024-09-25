@@ -385,6 +385,7 @@ header {
 @media (max-width: 500px) {
   .textpricipal {
     font-size: 24px;
+    width: 40%;
   }
 }
 
@@ -523,7 +524,7 @@ body {
 }
 .list .names {
   font-size: x-large;
-  color: #FFFFFF !important;
+  color: #FFFFFF;
 }
 
 .carousel {
@@ -536,7 +537,7 @@ body {
 }
 
 .mlat {
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 5px 0px 0px 10px;
   transition: ease-in-out;
   transition-duration: 0.7s;
   position: fixed;
@@ -549,7 +550,7 @@ body {
 }
 @media (max-width: 900px) {
   .mlat {
-    width: 50%;
+    width: 40%;
   }
 }
 
@@ -559,8 +560,21 @@ body {
 }
 @media (max-width: 900px) {
   .aparecer {
-    margin-left: 50%;
+    margin-left: 60%;
   }
+}
+
+.TMlat {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border-bottom: 1px solid black;
+  height: 80px;
+  padding-bottom: 20px;
+  background-color: rgb(216, 216, 216);
+  border-radius: 5px 0px 0px 0px;
 }
 
 .hidden {
@@ -601,4 +615,11 @@ body {
     justify-content: center;
     flex-direction: column;
   }
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
 }/*# sourceMappingURL=styles.css.map */

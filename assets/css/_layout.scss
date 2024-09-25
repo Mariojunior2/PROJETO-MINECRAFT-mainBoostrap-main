@@ -26,6 +26,7 @@ header {
     color: $cor-5;
     @media (max-width:500px){
       font-size: 24px;
+      width: 40%;
     }
   }
   
@@ -149,7 +150,7 @@ header {
   list-style: none;
   .names{
     font-size: x-large;
-    color: $cor-5 !important;
+    color: $cor-5;
 
   }
 }
@@ -168,6 +169,7 @@ header {
       
     }
   }
+
   
 
 
@@ -176,8 +178,24 @@ header {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   .mlat{
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 5px 0px 0px 10px;
     transition: ease-in-out;
     transition-duration: 0.7s;
     position: fixed;
@@ -189,7 +207,7 @@ header {
     top: 90px;
 
     @media(max-width:900px){
-        width: 50%;
+        width: 40%;
     }
 }
 
@@ -198,11 +216,42 @@ header {
   margin-left: 70%;
 
   @media(max-width: 900px){
-      margin-left: 50%;
+      margin-left: 60%;
   }
 
 
 }
+
+.TMlat{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border-bottom: 1px solid black;
+  height: 80px;
+  padding-bottom: 20px;
+  background-color: rgb(216, 216, 216);
+  border-radius: 5px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .hidden {
@@ -248,3 +297,10 @@ header {
 }
 
 
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+
+}

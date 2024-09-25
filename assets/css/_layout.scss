@@ -320,7 +320,10 @@ iframe {
   height: 550px;
 
   @media (max-width: 1000px) {
-    height: 350px;
+    height: 450px;
+  }
+  @media (max-width: 400px) {
+    height: max-content;
   }
 }
 

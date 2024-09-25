@@ -629,7 +629,13 @@ iframe {
 }
 @media (max-width: 1000px) {
   iframe {
-    height: 350px;
+    height: 450px;
+  }
+}
+@media (max-width: 400px) {
+  iframe {
+    height: -moz-max-content;
+    height: max-content;
   }
 }
 

@@ -634,11 +634,16 @@ header ul {
   list-style: none;
   align-items: start;
   width: 100%;
-  padding: 0px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
 }
 
 .LMlat {
   margin-bottom: 20px;
+}
+
+header ul a {
+  color: black;
 }
 
 .hidden {
@@ -682,12 +687,12 @@ header ul {
 }
 
 iframe {
-  padding: 40px;
   width: 70%;
 }
 @media (max-width: 1000px) {
   iframe {
-    height: 450px;
+    height: 150px;
+    width: 100%;
   }
 }
 

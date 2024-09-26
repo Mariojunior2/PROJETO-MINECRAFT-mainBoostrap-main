@@ -623,7 +623,7 @@ ul {
 .aparecer {
   position: fixed;
   margin-left: 80%;
-  border-left: 2px solid white;
+  border-left: 4px solid white;
   border-radius: 0px;
 }
 @media (max-width: 900px) {

@@ -4,6 +4,7 @@ body {
   background-color: $cor-3;
   padding-top: 100px;
   font-family: $fonte-titulos;
+  transition: all 1.2s ease-in-out;
 }
 
 img {
@@ -128,6 +129,7 @@ body {
   flex: 1;
   max-height: fit-content;
   height: fit-content;
+  
 
   @media(max-width:955px) {
     width: 100%;
@@ -178,6 +180,7 @@ body {
 */
 .titulo {
   text-align: center;
+  
 
   @media(max-width:500px) {
     font-size: larger;
@@ -221,7 +224,7 @@ ul {
   transition: ease-in-out;
   transition-duration: 0.7s;
   position: fixed;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
   height: 100vh;
   width: 20%;
   margin-left: 200%;
@@ -233,6 +236,7 @@ ul {
   }
 
   @media(max-width:500px) {
+    top: 80px;
     width: 50%;
   }
 
@@ -241,7 +245,8 @@ ul {
 .aparecer {
   position: fixed;
   margin-left: 80%;
-
+  border-left: 2px solid white;
+  border-radius: 0px;
   @media(max-width: 900px) {
     margin-left: 60%;
   }
@@ -258,12 +263,16 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
-  border-bottom: 1px solid black;
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid #000000;
   height: 80px;
   padding-bottom: 20px;
-  background-color: rgb(216, 216, 216);
-  border-radius: 5px 0px 0px 0px;
+  background-color: rgb(0, 0, 0);
+
+  
+  @media(max-width: 500px) {
+    padding-bottom: 0;
+  }
 }
 
 header ul{
@@ -274,14 +283,17 @@ header ul{
   width: 100%;
   padding-bottom: 10px;
   border-bottom: 1px solid black;
+  padding-left: 8px;
+
 }
 
 .LMlat{
   margin-bottom: 20px;
+  font-size: larger;
 }
 
 header ul a{
-  color: black;
+  color: rgb(255, 255, 255);
 
 }
 
@@ -308,6 +320,7 @@ header ul a{
 
 .visible {
   display: block;
+
 }
 
 .button {

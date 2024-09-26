@@ -112,6 +112,10 @@ $border-radius-box: 10px;
 }
 
 
+.hover-grow {
+  transition: all 0.2s ease-in-out;
+}
 
-
-
+.hover-grow:hover {
+  transform: scale(1.05);
+}

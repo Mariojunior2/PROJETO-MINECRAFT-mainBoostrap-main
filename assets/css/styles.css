@@ -468,6 +468,8 @@ p {
 body {
   display: flex;
   align-items: center;
+  justify-content: center;
+  text-align: center;
   flex-direction: column;
 }
 
@@ -526,7 +528,7 @@ body {
 }
 @media (max-width: 500px) {
   .creditos1 {
-    font-size: 80% !important;
+    font-size: 100% !important;
   }
 }
 
@@ -615,6 +617,17 @@ body {
   border-radius: 5px 0px 0px 0px;
 }
 
+.names {
+  text-align: center;
+  padding-left: -100px;
+}
+@media (max-width: 500px) {
+  .names {
+    font-size: 90% !important;
+    text-align: center;
+  }
+}
+
 .hidden {
   display: none;
 }
@@ -657,9 +670,7 @@ body {
 
 iframe {
   padding: 40px;
-  height: 550px;
-  width: -moz-max-content;
-  width: max-content;
+  width: 70%;
 }
 @media (max-width: 1000px) {
   iframe {

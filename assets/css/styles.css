@@ -594,7 +594,7 @@ ul {
   position: fixed;
   background-color: rgb(255, 255, 255);
   height: 100vh;
-  width: 30%;
+  width: 20%;
   margin-left: 200%;
   z-index: 4;
   top: 90px;
@@ -604,14 +604,24 @@ ul {
     width: 40%;
   }
 }
+@media (max-width: 500px) {
+  .mlat {
+    width: 50%;
+  }
+}
 
 .aparecer {
   position: fixed;
-  margin-left: 70%;
+  margin-left: 80%;
 }
 @media (max-width: 900px) {
   .aparecer {
     margin-left: 60%;
+  }
+}
+@media (max-width: 500px) {
+  .aparecer {
+    margin-left: 50%;
   }
 }
 
@@ -688,10 +698,12 @@ header ul a {
 
 iframe {
   width: 70%;
+  height: 450px;
+  padding: 20px;
 }
-@media (max-width: 1000px) {
+@media (max-width: 500px) {
   iframe {
-    height: 150px;
+    height: 250px;
     width: 100%;
   }
 }

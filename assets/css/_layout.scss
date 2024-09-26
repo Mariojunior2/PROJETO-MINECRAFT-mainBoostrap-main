@@ -154,6 +154,7 @@ body {
   }
   @media (max-width:500px) {
     font-size: 80% !important;
+    
    }
 }
 
@@ -222,7 +223,7 @@ ul {
   position: fixed;
   background-color: rgb(255, 255, 255);
   height: 100vh;
-  width: 30%;
+  width: 20%;
   margin-left: 200%;
   z-index: 4;
   top: 90px;
@@ -230,14 +231,23 @@ ul {
   @media(max-width:900px) {
     width: 40%;
   }
+
+  @media(max-width:500px) {
+    width: 50%;
+  }
+
 }
 
 .aparecer {
   position: fixed;
-  margin-left: 70%;
+  margin-left: 80%;
 
   @media(max-width: 900px) {
     margin-left: 60%;
+  }
+
+  @media(max-width: 500px) {
+    margin-left: 50%;
   }
 
 
@@ -337,8 +347,10 @@ header ul a{
 
 iframe {
   width: 70%;
-  @media (max-width: 1000px) {
-    height: 150px;
+  height: 450px;
+  padding: 20px;
+  @media (max-width: 500px) {
+    height: 250px;
     width: 100%;
   }
 }

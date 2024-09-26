@@ -119,7 +119,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 500px) {
   .ptxt {
-    font-size: 80%;
+    font-size: 50%;
   }
 }
 .max-h-fit-content {
@@ -528,7 +528,7 @@ body {
 }
 @media (max-width: 500px) {
   .creditos1 {
-    font-size: 100% !important;
+    font-size: 80% !important;
   }
 }
 
@@ -559,12 +559,23 @@ body {
   }
 }
 
+ul {
+  padding-left: 0rem;
+}
+
 .list {
   list-style: none;
 }
 .list .names {
-  font-size: x-large;
   color: #FFFFFF;
+  list-style-type: none;
+}
+@media (max-width: 500px) {
+  .list .names {
+    font-size: 90% !important;
+    text-align: center;
+    padding-left: 0rem !important;
+  }
 }
 
 .carousel {
@@ -617,15 +628,17 @@ body {
   border-radius: 5px 0px 0px 0px;
 }
 
-.names {
-  text-align: center;
-  padding-left: -100px;
+header ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: start;
+  width: 100%;
+  padding: 0px;
 }
-@media (max-width: 500px) {
-  .names {
-    font-size: 90% !important;
-    text-align: center;
-  }
+
+.LMlat {
+  margin-bottom: 20px;
 }
 
 .hidden {

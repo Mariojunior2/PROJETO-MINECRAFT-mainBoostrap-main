@@ -98,14 +98,14 @@ $border-radius-box: 10px;
 .ptxt {
   @media (max-width:500px) {
    font-size: 58%;
-   margin-top: 2%;
+   margin-top: 0.5%;
   }
   @media (min-width:800px) {
     font-size: larger;
     margin: 1%;
   }
   @media (max-width:300px) {
-    margin-top: 10%;
+    margin-top: 0.5%;
   }
 }
 

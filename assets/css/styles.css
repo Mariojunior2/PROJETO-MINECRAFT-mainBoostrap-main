@@ -120,6 +120,7 @@ p, h1, h2, h3, h4, h5, h6 {
 @media (max-width: 500px) {
   .ptxt {
     font-size: 50%;
+    margin-top: 5%;
   }
 }
 @media (min-width: 800px) {
@@ -128,6 +129,12 @@ p, h1, h2, h3, h4, h5, h6 {
     margin: 1%;
   }
 }
+@media (max-width: 300px) {
+  .ptxt {
+    margin-top: 10%;
+  }
+}
+
 @media (min-width: 800px) {
   .text {
     margin-top: 10%;

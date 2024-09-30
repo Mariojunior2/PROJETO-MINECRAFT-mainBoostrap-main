@@ -119,7 +119,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 500px) {
   .ptxt {
-    font-size: 58%;
+    font-size: 50%;
     margin-top: 0.5%;
   }
 }

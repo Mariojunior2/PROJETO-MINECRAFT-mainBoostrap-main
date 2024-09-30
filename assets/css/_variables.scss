@@ -99,14 +99,20 @@ $border-radius-box: 10px;
   @media (max-width:500px) {
    font-size: 50%;
   }
-  @media (max-width:1000px) {
-    
+  @media (min-width:800px) {
+    font-size: larger;
+    margin: 1%;
   }
   @media (max-width:300px) {
    
   }
 }
 
+.text {
+  @media (min-width:800px) {
+    margin-top: 10%;
+  }
+}
 .max-h-fit-content {
   max-height: fit-content;
 }

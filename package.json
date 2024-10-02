@@ -1,0 +1,22 @@
+{
+  "name": "projeto-minecraft-mainboostrap-main",
+  "version": "1.0.0",
+  "description": "PROJETO DO MINECRAFT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mariojunior2/PROJETO-MINECRAFT-mainBoostrap-main.git"
+  },
+  "author": "Equipe Minecraft Senac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mariojunior2/PROJETO-MINECRAFT-mainBoostrap-main/issues"
+  },
+  "homepage": "https://github.com/Mariojunior2/PROJETO-MINECRAFT-mainBoostrap-main#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}

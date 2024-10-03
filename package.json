@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Mariojunior2/PROJETO-MINECRAFT-mainBoostrap-main#readme",
   "dependencies": {
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "projeto-minecraft-mainboostrap-main": "file:"
   }
 }

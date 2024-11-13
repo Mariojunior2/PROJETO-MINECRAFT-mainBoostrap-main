@@ -123,6 +123,9 @@ $border-radius-box: 10px;
 }
 
 .text {
+  @media (min-width: 900px) {
+  
+  }
   @media (min-width:800px) {
     margin-top: 10%;
   }

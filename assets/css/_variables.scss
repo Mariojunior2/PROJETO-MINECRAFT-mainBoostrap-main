@@ -111,10 +111,14 @@ $border-radius-box: 10px;
 .ptxt {
   @media (max-width:500px) {
    font-size: 55%;
-   margin-top: 0.5%;
+   margin-top: 0%;
   }
   @media (min-width:800px) {
-    font-size: larger;
+    display: flex;
+    align-items: center;
+    padding: 70px;
+    text-align: justify;
+    font-size: 25px;
     margin: 1%;
   }
   @media (max-width:300px) {
@@ -123,12 +127,18 @@ $border-radius-box: 10px;
 }
 
 .text {
-  @media (min-width: 900px) {
-  
-  }
+  @media (max-width:500px) {
+
+   }
   @media (min-width:800px) {
-    margin-top: 10%;
-  }
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    padding: 70px;
+    text-align: justify;
+    font-size: 25px;
+
+  } 
 }
 .max-h-fit-content {
   max-height: fit-content;
@@ -141,4 +151,13 @@ $border-radius-box: 10px;
 
 .hover-grow:hover {
   transform: scale(1.05);
+}
+
+.te{
+  @media (min-width:500px) {
+    margin-top: 27px;
+  } 
+  margin-top: 18px;
+  padding: 0;
+  height: 100%;
 }

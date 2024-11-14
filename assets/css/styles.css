@@ -138,12 +138,16 @@ p, h1, h2, h3, h4, h5, h6 {
 @media (max-width: 500px) {
   .ptxt {
     font-size: 55%;
-    margin-top: 0.5%;
+    margin-top: 0%;
   }
 }
 @media (min-width: 800px) {
   .ptxt {
-    font-size: larger;
+    display: flex;
+    align-items: center;
+    padding: 70px;
+    text-align: justify;
+    font-size: 25px;
     margin: 1%;
   }
 }
@@ -155,7 +159,12 @@ p, h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 800px) {
   .text {
-    margin-top: 10%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    padding: 70px;
+    text-align: justify;
+    font-size: 25px;
   }
 }
 
@@ -170,6 +179,17 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .hover-grow:hover {
   transform: scale(1.05);
+}
+
+.te {
+  margin-top: 18px;
+  padding: 0;
+  height: 100%;
+}
+@media (min-width: 500px) {
+  .te {
+    margin-top: 27px;
+  }
 }
 
 /* Created by Tivotal */

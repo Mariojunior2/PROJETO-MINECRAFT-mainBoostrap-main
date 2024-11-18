@@ -5,6 +5,7 @@ function aparecer(){
 
 
 const readMoreButtons = document.querySelectorAll('.button');
+console.log('Zafalon Lindão e Sofia TBM');
 
 readMoreButtons.forEach((button) => {
   button.addEventListener('click', function() {
